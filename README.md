@@ -2,6 +2,7 @@
 To launch project you need to execute:
 "docker-compose up"
 and use dump inside the project ("task.sql").
+"docker exec -i database mysql -uroot -proot test_task < task.sql"
 
 used technology: PHP7.0, Mysql, Nginx, Docker, Yii2 framework.
 
