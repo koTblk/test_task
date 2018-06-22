@@ -1,5 +1,5 @@
 # test_task
-To launck project you need to execute:
+To launch project you need to execute:
 "docker-compose up"
 and use dump inside the project ("task.sql").
 
