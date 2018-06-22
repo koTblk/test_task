@@ -8,7 +8,8 @@ and use dump inside the project ("task.sql").
 	"docker exec -i database mysql -uroot -proot test_task < task.sql"
 
 used technology: PHP7.0, Mysql, Nginx, Docker, Yii2 framework.
-
+if everything made correct - you will see project http://127.0.0.1
+IP database : 127.0.0.1:3306
 
 1.users (usr_id, usr_name, usr_active, usr_created)
 	countries (cnt_id, cnt_code, cnt_title, cnt_created)
